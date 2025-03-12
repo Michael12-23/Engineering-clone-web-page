@@ -55,19 +55,19 @@
 media queary for section 1/ hero section 
 ..........................................*/
 @media screen and (max-width:430px) {
-    .sect-1{
+    .sect-1 {
         padding-bottom: 2em;
     }
 
     #build {
         font-size: 3.2em;
-    }  
+    }
 
     #Discover {
         font-size: 1.5em;
     }
 
-    .child > p {
+    .child>p {
         padding: 0 0.7em;
     }
 }
@@ -77,7 +77,7 @@ media queary for section 1/ hero section
 end of media queary for section 1/ hero section 
 ..........................................*/
 
-.boy { 
+.boy {
     padding-top: 80px;
     background-color: white;
     display: flex;
@@ -95,16 +95,23 @@ end of media queary for section 1/ hero section
     margin-right: 70px;
 }
 
+.line {
+    margin-left: 300px;
+    color: #cfcbc5f1;
+}
+
+
+
 /*...........................................
   media queary section for section-1[boy]
 .............................................*/
- @media screen and (max-width:450px) { 
-   .boy {
+@media screen and (max-width:450px) {
+    .boy {
         background-color: white;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding:80px 1.7em  100px;
+        padding: 80px 1.7em 100px;
     }
 
     .boy-1 {
@@ -112,25 +119,33 @@ end of media queary for section 1/ hero section
     }
 
     .boy-2 {
-        margin:3.7em  0;
+        margin: 3.7em 0;
     }
 
     .boy-3 {
-        margin:2rem 0;
+        margin: 2rem 0;
     }
 
-    .boy-1 > p{
-        color:rgba(0, 0, 0, 0.486) ;
-    }
-    .boy-2 > p{
-        color:rgba(0, 0, 0, 0.486) ;
-    }
-    .boy-3 > p{
-        color:rgba(0, 0, 0, 0.486) ;
+    .boy-1>p {
+        color: rgba(0, 0, 0, 0.486);
     }
 
+    .boy-2>p {
+        color: rgba(0, 0, 0, 0.486);
+    }
 
- }
+    .boy-3>p {
+        color: rgba(0, 0, 0, 0.486);
+    }
+
+    .line {
+        margin-left: 300px;
+        color: #cfcbc5f1;
+        display: none;
+
+    }
+
+}
 
 
 
@@ -138,10 +153,7 @@ end of media queary for section 1/ hero section
    end of media queary section for section-2 [ boy]
 ......................................................*/
 
-.line {
-    margin-left: 300px;
-    color: #cfcbc5f1;
-}
+
 
 .man {
     text-align: center;
@@ -205,6 +217,78 @@ end of media queary for section 1/ hero section
     height: 100vh;
 
 }
+
+/*...................................................
+    start of media queary section for section-3 [ man]
+......................................................*/
+@media screen and (max-width:450px) {
+    .man {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 40px;
+
+
+    }
+
+    .ma {
+        font-size: 23px;
+    }
+
+    .an {
+        font-size: 13px;
+        padding-bottom: 7em;
+        color: rgba(0, 0, 0, 0.443);
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0em 2em;
+
+    }
+
+    .top-content {
+        padding: 3em 0;
+    }
+
+
+    .why {
+        text-align: center;
+        padding-top: 100px;
+        font-size: 10px;
+        padding-bottom: 100px;
+    }
+
+    .choose>p {
+        font-size: 13px;
+        color:rgba(0, 0, 0, 0.443);
+        padding-top:2em ;
+    }
+
+    .choose>h2 {
+        font-size: 30px;
+        padding:0 1em ;
+    }
+
+    .image {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 1em 2em;
+        
+    }
+
+    .image > img {
+        margin-top: 1em;
+    }
+}
+
+
+
+/*...................................................
+   end of media queary section for section-3 [man]
+......................................................*/
 
 .number {
     display: flex;
@@ -426,7 +510,7 @@ end of media queary for section 1/ hero section
     padding: 0.4em 0.5em;
     display: flex;
     justify-content: space-around;
-    padding-bottom:8em ;
+    padding-bottom: 8em;
 
 }
 
@@ -476,7 +560,7 @@ input {
     justify-content: center;
     width: 100%;
     height: 100%;
-    padding-top:5em;
+    padding-top: 5em;
     background-color: #222222f9;
     padding-bottom: 10em;
 
@@ -503,9 +587,10 @@ input {
 
 }
 
-.lorem{
-    color:#cfcbc5f1;
+.lorem {
+    color: #cfcbc5f1;
 }
+
 .contact-number {
     padding-top: 1em;
     font-size: 25px;
@@ -520,7 +605,7 @@ input {
 .World-icons {
     padding-top: 30em;
     color: #f9f9ff;
-    font-size:10px ; 
+    font-size: 10px;
 }
 
 .world-icons:hover {
