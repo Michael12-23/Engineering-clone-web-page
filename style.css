@@ -77,7 +77,7 @@ media queary for section 1/ hero section
 end of media queary for section 1/ hero section 
 ..........................................*/
 
-.boy {
+.boy { 
     padding-top: 80px;
     background-color: white;
     display: flex;
@@ -92,11 +92,51 @@ end of media queary for section 1/ hero section
 
 .boy-3 {
     margin-left: 40px;
-}
-
-.boy-3 {
     margin-right: 70px;
 }
+
+/*...........................................
+  media queary section for section-1[boy]
+.............................................*/
+ @media screen  and (max-width:430px) { 
+   .boy {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:80px 1.7em  100px;
+    }
+
+    .boy-1 {
+        margin: 2rem 0 0;
+    }
+
+    .boy-2 {
+        margin:3.7em  0;
+    }
+
+    .boy-3 {
+        margin:2rem 0;
+    }
+
+    .boy-1 > p{
+        color:rgba(0, 0, 0, 0.486) ;
+    }
+    .boy-2 > p{
+        color:rgba(0, 0, 0, 0.486) ;
+    }
+    .boy-3 > p{
+        color:rgba(0, 0, 0, 0.486) ;
+    }
+
+
+ }
+
+
+
+/*...................................................
+   end of media queary section for section-2 [ boy]
+......................................................*/
 
 .line {
     margin-left: 300px;
