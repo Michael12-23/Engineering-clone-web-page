@@ -98,7 +98,7 @@ end of media queary for section 1/ hero section
 /*...........................................
   media queary section for section-1[boy]
 .............................................*/
- @media screen and (max-width:430px) { 
+ @media screen and (max-width:450px) { 
    .boy {
         background-color: white;
         display: flex;
